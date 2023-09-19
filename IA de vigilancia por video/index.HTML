@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA de reconhecimento de objetos em vídeo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+</head>
+
+<body>
+
+    <center>
+        <h2 id="h2" style="background-color:DodgerBlue;">Detecção de Objetos</h2>
+        <button onclick="start()" class="btn btn-sucess" id="start">Iniciar</button>
+
+        <div>
+            <h3 id="numberOfObjects" class="btn btn-warning">qualquer coisa</h3>
+            <br><br>
+        </div>
+        <div>
+            <h3 id="status" class="btn btn-danger">qualquer coisa</h3>
+            <br><br>
+        </div>
+
+        <h4 id="listaObjetos">Objetos detectados no total: </h4>
+
+
+        <div class="copyrightFooter">
+            <p> Desenvolvido por Guilherme nas aulas da Byju's</p>
+        </div>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
